@@ -3,7 +3,7 @@
     body
     {
         background-color: #181526;
-        background-image: url("card_bg.png");
+        background-image: url("imgs/card_bg.png");
         margin: 0;
         animation: scroll linear 12s infinite, yscroll ease-in-out 20s infinite;
     }
@@ -67,6 +67,21 @@
         border: 2px none green;
     }
 
+    #game_logo
+    {
+        max-width: 30%;
+        margin: 0% 4%;
+        padding: 0% 10% 0% 10%;
+    }
+
+    #game_headline
+    {
+        text-align: center;
+        width: 70%;
+        margin: 0% 5%;
+        padding: 0% 10% 0% 10%;
+    }
+
     img
     {
         /* Debug outline */
@@ -86,6 +101,11 @@
     li
     {
         display: inline;
+    }
+
+    .team_credits li
+    {
+        display: block;
     }
 
     #games, #other
@@ -112,6 +132,28 @@
     .credits {
         font-size: 0.9rem;
     }
+
+    .gallery
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0px 10px;
+    }
+
+    .gallery img
+    {
+        width: 100%;
+        max-width: 350px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
 }
 
 /*Tablet styling*/
@@ -119,7 +161,7 @@
     body
     {
         background-color: #181526;
-        background-image: url("card_bg.png");
+        background-image: url("imgs/card_bg.png");
         margin: 0;
         animation: scroll linear 12s infinite, yscroll ease-in-out 20s infinite;
     }
@@ -181,6 +223,21 @@
         margin: 0% 5%;
         /* Debug outline */
         border: 2px none green;
+    }
+
+    #game_logo
+    {
+        max-width: 30%;
+        margin: 0% 17%;
+        padding: 0% 10% 0% 10%;
+    }
+
+    #game_headline
+    {
+        text-align: center;
+        width: 70%;
+        margin: 0% 5%;
+        padding: 0% 10% 0% 10%;
     }
 
     img
@@ -224,14 +281,37 @@
     .credits {
         font-size: 0.9rem;
     }
+
+    .gallery
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0px 10px;
+    }
+
+    .gallery img
+    {
+        width: 100%;
+        max-width: 350px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
 }
 
 /*Desktop styling*/
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) 
+{
     body
     {
         background-color: #181526;
-        background-image: url("card_bg.png");
+        background-image: url("imgs/card_bg.png");
         margin: 0;
         animation: scroll linear 12s infinite, yscroll ease-in-out 20s infinite;
     }
@@ -249,12 +329,14 @@
         100% { background-position-y: 0px; }
     }
 
-    .flex-container {
+    .flex-container 
+    {
         display: flex;
         flex-direction: row;
     }
 
-    .flex-child {
+    .flex-child 
+    {
         flex: 1;
         margin: 60px;
         /*Debug outline*/
@@ -266,7 +348,7 @@
         height: 50%;
     }
 
-    p, h1, h2, h3, a, li
+    p, h1, h2, h3, li
     {
         font-family: 'Lato', Arial, Helvetica, sans-serif;
         color: white;
@@ -275,7 +357,8 @@
         border: 2px none white;
     }
 
-    p, li {
+    p, li 
+    {
         font-size: 1.2rem;
     }
 
@@ -294,8 +377,24 @@
         border: 2px none green;
     }
 
+    #game_logo
+    {
+        max-width: 30%;
+        margin: 0% 27%;
+        padding: 0% 10% 0% 10%;
+    }
+
+    #game_headline
+    {
+        text-align: center;
+        width: 70%;
+        margin: 0% 5%;
+        padding: 0% 10% 0% 10%;
+    }
+
     img
     {
+        /*Debug outline*/
         border: 2px none white;
     }
 
@@ -333,7 +432,30 @@
         margin-bottom: 2%;
     }
 
-    .credits {
+    .credits 
+    {
         font-size: 0.9rem;
+    }
+
+    .gallery
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0px 10px;
+    }
+
+    .gallery img
+    {
+        width: 100%;
+        max-width: 350px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 5px;
     }
 }

@@ -1,0 +1,339 @@
+/*Mobile styling*/
+@media only screen and (max-width: 599.9999px) {
+    body
+    {
+        background-color: #181526;
+        background-image: url("card_bg.png");
+        margin: 0;
+        animation: scroll linear 12s infinite, yscroll ease-in-out 20s infinite;
+    }
+    
+    @keyframes scroll
+    {
+        0% { background-position-x: 0px; }
+        100% {background-position-x: 10vw;}
+    }
+
+    @keyframes yscroll
+    {
+        0% { background-position-y: 0px; }
+        50% { background-position-y: 6vh; }
+        100% { background-position-y: 0px; }
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-child {
+        flex: 1;
+        margin: 30px;
+        /*Debug outline*/
+        border: 2px none yellow;
+    }
+
+    .flex-child:first-child {
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+
+    p, h1, h2, h3, a, li
+    {
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        color: white;
+        text-decoration: none;
+        /* Debug outline */
+        border: 2px none white;
+    }
+
+    p, li {
+        font-size: 1.2rem;
+    }
+
+    a:hover, a:active
+    {
+        color: #f6e324;
+        font-size: 1.3rem;
+    }
+
+    #logo, #headline, #about, #links
+    {
+        text-align: center;
+        width: 75%;
+        padding: 0% 10% 0% 10%;
+        margin: 0% 2%;
+        /* Debug outline */
+        border: 2px none green;
+    }
+
+    img
+    {
+        /* Debug outline */
+        border: 2px none white;
+    }
+
+    #headline, #links
+    {
+        padding-left: 10%;
+    }
+
+    ul
+    {
+        padding-left: 0px;
+    }
+
+    li
+    {
+        display: inline;
+    }
+
+    #games, #other
+    {
+        text-align: center;
+        padding: 0% 10% 0% 10%;
+        width: 75%;
+        margin: 0% 2%;
+        /* Debug outline */
+        border: 2px none green;
+    }
+    
+    .game_title
+    {
+        margin-bottom: 0%;
+    }
+
+    .game_desc, .credits
+    {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .credits {
+        font-size: 0.9rem;
+    }
+}
+
+/*Tablet styling*/
+@media only screen and (min-width: 600px) {
+    body
+    {
+        background-color: #181526;
+        background-image: url("card_bg.png");
+        margin: 0;
+        animation: scroll linear 12s infinite, yscroll ease-in-out 20s infinite;
+    }
+
+    @keyframes scroll
+    {
+        0% { background-position-x: 0px; }
+        100% {background-position-x: 10vw;}
+    }
+
+    @keyframes yscroll
+    {
+        0% { background-position-y: 0px; }
+        50% { background-position-y: 6vh; }
+        100% { background-position-y: 0px; }
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-child {
+        flex: 1;
+        margin: 30px;
+        /*Debug outline*/
+        border: 2px none yellow;
+    }
+
+    .flex-child:first-child {
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+
+    p, h1, h2, h3, a, li
+    {
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        color: white;
+        text-decoration: none;
+        /* Debug outline */
+        border: 2px none white;
+    }
+
+    p, li {
+        font-size: 1.2rem;
+    }
+
+    a:hover, a:active
+    {
+        color: #f6e324;
+        font-size: 1.3rem;
+    }
+
+    #logo, #headline, #about, #links
+    {
+        text-align: left;
+        width: 70%;
+        padding: 0% 10% 0% 10%;
+        margin: 0% 5%;
+        /* Debug outline */
+        border: 2px none green;
+    }
+
+    img
+    {
+        /* Debug outline */
+        border: 2px none white;
+    }
+
+    #headline, #links
+    {
+        padding-left: 10%;
+    }
+
+    ul, li
+    {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    #games, #other
+    {
+        text-align: left;
+        padding: 0% 10% 0% 10%;
+        width: 70%;
+        margin: 0% 5%;
+        /* Debug outline */
+        border: 2px none green;
+    }
+    
+    .game_title
+    {
+        margin-bottom: 0%;
+    }
+
+    .game_desc, .credits
+    {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .credits {
+        font-size: 0.9rem;
+    }
+}
+
+/*Desktop styling*/
+@media only screen and (min-width: 992px) {
+    body
+    {
+        background-color: #181526;
+        background-image: url("card_bg.png");
+        margin: 0;
+        animation: scroll linear 12s infinite, yscroll ease-in-out 20s infinite;
+    }
+    
+    @keyframes scroll
+    {
+        0% { background-position-x: 0px; }
+        100% {background-position-x: 10vw;}
+    }
+
+    @keyframes yscroll
+    {
+        0% { background-position-y: 0px; }
+        50% { background-position-y: 6vh; }
+        100% { background-position-y: 0px; }
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-child {
+        flex: 1;
+        margin: 60px;
+        /*Debug outline*/
+        border: 2px none yellow;
+    }
+
+    .flex-child:first-child {
+        margin-right: 20px;
+        height: 50%;
+    }
+
+    p, h1, h2, h3, a, li
+    {
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        color: white;
+        text-decoration: none;
+        /* Debug outline */
+        border: 2px none white;
+    }
+
+    p, li {
+        font-size: 1.2rem;
+    }
+
+    a:hover, a:active
+    {
+        color: #f6e324;
+        font-size: 1.3rem;
+    }
+
+    #logo, #headline, #about, #links
+    {
+        text-align: left;
+        width: 70%;
+        padding: 0% 10% 0% 10%;
+        margin: 5%;
+        border: 2px none green;
+    }
+
+    img
+    {
+        border: 2px none white;
+    }
+
+    #headline, #links
+    {
+        padding-left: 10%;
+    }
+
+    li
+    {
+        list-style-type: none;
+    }
+
+    #games, #other
+    {
+        text-align: right;
+        padding: 0% 10% 0% 10%;
+        border: 2px none green;
+        width: 70%;
+        margin: 5%;
+    }
+
+    #games h2
+    {
+        margin-top: 0px;
+    }                
+    .game_title
+    {
+        margin-bottom: 0%;
+    }
+
+    .game_desc, .credits
+    {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .credits {
+        font-size: 0.9rem;
+    }
+}

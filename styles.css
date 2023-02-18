@@ -11,13 +11,13 @@
     @keyframes scroll
     {
         0% { background-position-x: 0px; }
-        100% {background-position-x: 10vw;}
+        100% {background-position-x: 20vw;}
     }
 
     @keyframes yscroll
     {
         0% { background-position-y: 0px; }
-        50% { background-position-y: 6vh; }
+        50% { background-position-y: 12vh; }
         100% { background-position-y: 0px; }
     }
 
@@ -69,9 +69,11 @@
 
     #game_logo
     {
-        max-width: 30%;
-        margin: 0% 4%;
-        padding: 0% 10% 0% 10%;
+        display: flex;
+        max-width: 70%;
+        margin: 2% 5%;
+        padding: 0% 10%;
+        justify-content: center;
     }
 
     #game_headline
@@ -101,7 +103,6 @@
     li
     {
         display: inline-block;
-        padding: 5px;
     }
 
     .team_credits li
@@ -170,13 +171,13 @@
     @keyframes scroll
     {
         0% { background-position-x: 0px; }
-        100% {background-position-x: 10vw;}
+        100% {background-position-x: 15vw;}
     }
 
     @keyframes yscroll
     {
         0% { background-position-y: 0px; }
-        50% { background-position-y: 6vh; }
+        50% { background-position-y: 9vh; }
         100% { background-position-y: 0px; }
     }
 
@@ -228,9 +229,11 @@
 
     #game_logo
     {
-        max-width: 30%;
-        margin: 0% 17%;
-        padding: 0% 10% 0% 10%;
+        display: flex;
+        max-width: 70%;
+        margin: 2% 5%;
+        padding: 0% 10%;
+        justify-content: center;
     }
 
     #game_headline
@@ -286,7 +289,7 @@
     .gallery
     {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
@@ -369,7 +372,7 @@
         font-size: 1.3rem;
     }
 
-    #logo, #headline, #about, #links
+    #logo, #headline, #about, #links, #game_logo, #game_headline, .gallery
     {
         text-align: left;
         width: 70%;
@@ -380,16 +383,18 @@
 
     #game_logo
     {
-        max-width: 30%;
-        margin: 0% 27%;
-        padding: 0% 10% 0% 10%;
+        display: flex;
+        max-width: 70%;
+        margin: 2% 5%;
+        padding: 0% 10%;
+        justify-content: center;
     }
 
     #game_headline
     {
         text-align: center;
         width: 70%;
-        margin: 0% 5%;
+        margin: 2% 5%;
         padding: 0% 10% 0% 10%;
     }
 

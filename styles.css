@@ -38,7 +38,7 @@
         margin-bottom: 0px;
     }
 
-    p, h1, h2, h3, a, li
+    p, h1, h2, h3, a, li, figcaption
     {
         font-family: 'Lato', Arial, Helvetica, sans-serif;
         color: white;
@@ -48,6 +48,12 @@
     }
 
     p, li {
+        font-size: 1.2rem;
+    }
+
+    figcaption
+    {
+        text-align: center;
         font-size: 1.2rem;
     }
 
@@ -103,6 +109,7 @@
     li
     {
         display: inline-block;
+        padding: 0px 20px;
     }
 
     .team_credits li
@@ -143,16 +150,25 @@
         justify-content: center;
         align-items: center;
         gap: 16px;
-        max-width: 500px;
+        max-width: 1000px;
         margin: 0 auto;
-        padding: 0px 10px;
+        padding: 20px 10px;
     }
 
     .gallery img
     {
         width: 100%;
         max-width: 350px;
-        height: 300px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    figure
+    {
+        width: 100%;
+        max-width: 350px;
+        height: 350px;
         object-fit: cover;
         border-radius: 5px;
     }
@@ -198,7 +214,7 @@
         margin-bottom: 0px;
     }
 
-    p, h1, h2, h3, a, li
+    p, h1, h2, h3, a, li, figcaption
     {
         font-family: 'Lato', Arial, Helvetica, sans-serif;
         color: white;
@@ -208,6 +224,12 @@
     }
 
     p, li {
+        font-size: 1.2rem;
+    }
+
+    figcaption
+    {
+        text-align: center;
         font-size: 1.2rem;
     }
 
@@ -294,16 +316,25 @@
         justify-content: center;
         align-items: center;
         gap: 16px;
-        max-width: 500px;
+        max-width: 1000px;
         margin: 0 auto;
-        padding: 0px 10px;
+        padding: 20px 10px;
     }
 
     .gallery img
     {
         width: 100%;
         max-width: 350px;
-        height: 300px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    figure
+    {
+        width: 100%;
+        max-width: 350px;
+        height: 350px;
         object-fit: cover;
         border-radius: 5px;
     }
@@ -352,7 +383,7 @@
         height: 50%;
     }
 
-    p, h1, h2, h3, li
+    p, h1, h2, h3, li, figcaption
     {
         font-family: 'Lato', Arial, Helvetica, sans-serif;
         color: white;
@@ -363,6 +394,12 @@
 
     p, li 
     {
+        font-size: 1.2rem;
+    }
+
+    figcaption
+    {
+        text-align: center;
         font-size: 1.2rem;
     }
 
@@ -447,11 +484,11 @@
     {
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 16px;
-        max-width: 500px;
+        max-width: 1000px;
         margin: 0 auto;
         padding: 0px 10px;
     }
@@ -460,7 +497,16 @@
     {
         width: 100%;
         max-width: 350px;
-        height: 250px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    figure
+    {
+        width: 100%;
+        max-width: 350px;
+        height: 350px;
         object-fit: cover;
         border-radius: 5px;
     }

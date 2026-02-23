@@ -76,7 +76,9 @@
     #game_logo
     {
         display: flex;
-        max-width: 70%;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: fit-content;
         margin: 2% 5%;
         padding: 0% 10%;
         justify-content: center;
